@@ -9,6 +9,8 @@ This project implements a POC that uses AWS CloudWatch Subscription Filter to pr
 3. **CloudWatch Subscription Filter** → Captures logs with `enable=true` automatically
 4. **Lambda Processor** → Processes captured logs and saves to DynamoDB
 
+![Architecture](/images/architecture-subscription-filter-1.png)
+
 ## Deployment
 
 ### 1. Build Lambdas
